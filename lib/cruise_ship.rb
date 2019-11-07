@@ -7,5 +7,6 @@
 # }
 
 def select_winner(passengers)
+  winner = String.new
   passengers.each { |key, value|  }
 end
