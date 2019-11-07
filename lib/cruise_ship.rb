@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   winner = String.new
-  passengers.each { |key, value| winner = value if key == suite_a: && value.starts_with?( " ") }
+  passengers.each { |key, value| winner = value if key == suite_a: && value.starts_with?( "A") }
 end
