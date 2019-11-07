@@ -7,5 +7,8 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  winner = String.new
+  passengers.each { |key, value| winner = value if key == :suite_a && value.start_with?( "A" ) }
+  winner
 end
+
